@@ -21,8 +21,8 @@ class Api::BenchesController < ApplicationController
     render :show
   end
 
-  private
 
+  # private
   def seating_range
     (params[:minSeating]..params[:maxSeating])
   end
